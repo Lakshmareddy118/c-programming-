@@ -1,0 +1,73 @@
+Code
+
+Issues
+
+Pull requests
+
+Actions
+
+Projects
+
+Security
+
+Insights
+
+Beta Try the new code view
+
+vishnu/A 4 Q8
+
+@Vishnu1192178
+
+Vishnu1192178 Create A 4 Q8
+
+Latest commit 72bdbf1 yesterday
+
+ History
+
+ 1 contributor
+
+41 lines (21 sloc)  364 Bytes
+
+ 
+
+#include <stdio.h>
+
+union unionJob
+
+{
+
+   //defining a union
+
+   char name[32];
+
+   float salary;
+
+   int workerNo;
+
+} uJob;
+
+struct structJob
+
+{
+
+   char name[32];
+
+   float salary;
+
+   int workerNo;
+
+} sJob;
+
+int main()
+
+{
+
+   printf("size of union = %d bytes", sizeof(uJob));
+
+   printf("\nsize of structure = %d bytes", sizeof(sJob));
+
+   return 0;
+
+}
+
+Footer
